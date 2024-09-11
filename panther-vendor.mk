@@ -76,7 +76,6 @@ PRODUCT_PACKAGES += \
     libmediaadaptor \
     com.google.edgetpu_app_service-V3-ndk \
     com.google.edgetpu_vendor_service-V2-ndk \
-    libhbmsvmanager_jni \
     VZWAPNLib \
     AppDirectedSMSService \
     CarrierSettings_signed_45.0.591154042 \
@@ -101,7 +100,6 @@ PRODUCT_PACKAGES += \
     EuiccGoogleOverlay \
     EuiccSupportPixel \
     EuiccSupportPixelPermissions \
-    HbmSVManager \
     MyVerizonServices \
     OemRilService \
     PixelQualifiedNetworksService \
@@ -124,8 +122,7 @@ PRODUCT_PACKAGES += \
     libdmengine_libdmengine_symlink32 \
     libdmjavaplugin_libdmjavaplugin_symlink32 \
     libdmengine_libdmengine_symlink64 \
-    libdmjavaplugin_libdmjavaplugin_symlink64 \
-    libhbmsvmanager_jni_libhbmsvmanager_jni_symlink64
+    libdmjavaplugin_libdmjavaplugin_symlink64
 PRODUCT_COPY_FILES += \
     vendor/google/panther/proprietary/product/etc/CarrierSettings/1and1_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1and1_de.pb \
     vendor/google/panther/proprietary/product/etc/CarrierSettings/2degrees_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/2degrees_nz.pb \
